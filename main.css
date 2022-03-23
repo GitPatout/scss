@@ -1,20 +1,13 @@
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
-nav ul {
-  list-style: none;
-  justify-content: space-between;
-  align-items: center;
+
+ul {
+  display: flex;
+  gap: 10%;
+}
+
+li {
   display: flex;
 }
-nav li {
-  padding: 0 10px 0 0;
-}
-nav #logo {
-  height: 80px;
-  width: 80px;
-  background-color: black;
-  border-radius: 50%;
-}/*# sourceMappingURL=main.css.map */
