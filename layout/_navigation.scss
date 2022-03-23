@@ -1,0 +1,21 @@
+nav{      
+         display: flex;
+           justify-content: space-between;
+            align-items: center;
+    
+    ul{ list-style: none;  
+        justify-content: space-between;
+         align-items: center;
+         display: flex;}
+
+    li{ padding: 0 10px 0 0;
+         }
+         
+    #logo
+    { 
+        height: 80px;
+        width: 80px;
+        background-color: black;
+        border-radius: 50%;
+    }
+}
